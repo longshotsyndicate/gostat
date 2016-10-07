@@ -5,7 +5,7 @@ import (
 	"math"
 
 	. "github.com/ematvey/go-fn/fn"
-	mx "github.com/skelterjohn/go.matrix"
+	mx "github.com/longshotsyndicate/go.matrix"
 )
 
 func checkMatrixT(M, Omega, Sigma *mx.DenseMatrix, n int) {

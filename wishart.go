@@ -2,7 +2,7 @@ package stat
 
 import (
 	. "github.com/ematvey/go-fn/fn"
-	m "github.com/skelterjohn/go.matrix"
+	m "github.com/longshotsyndicate/go.matrix"
 )
 
 func Wishart_PDF(n int, V *m.DenseMatrix) func(W *m.DenseMatrix) float64 {

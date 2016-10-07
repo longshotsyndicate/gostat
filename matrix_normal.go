@@ -2,8 +2,9 @@ package stat
 
 import (
 	"fmt"
-	mx "github.com/skelterjohn/go.matrix"
 	"math"
+
+	mx "github.com/longshotsyndicate/go.matrix"
 )
 
 func checkMatrixNormal(M, Omega, Sigma *mx.DenseMatrix) {
